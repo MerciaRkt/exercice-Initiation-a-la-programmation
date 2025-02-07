@@ -1,3 +1,4 @@
+//Affiche la somme et moyenne de deux notes
 #include<stdio.h>
 int main()
 {
