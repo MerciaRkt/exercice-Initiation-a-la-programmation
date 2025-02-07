@@ -1,3 +1,4 @@
+//Echange des valeurs des 2 variables a et b
 #include<stdio.h>
 int main()
 {
