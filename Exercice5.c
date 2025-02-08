@@ -35,11 +35,9 @@ int main()
             delta=-delta;
             k=sqrt(delta)/(2*a);
             l=-b/(2*a);
-            x1=(-b/(2*a));
 
-
-            printf("il y a deux solutions complexes :x1=%f-%f\n",k,l);
-            printf(" et x2=%f+%f\n",k,l);
+            printf("il y a deux solutions complexes :x1=%f-i%f\n",l,k);
+            printf(" et x2=%f+i%f\n",l,k);
         }
     return(0);
 }
