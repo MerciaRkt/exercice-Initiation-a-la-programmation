@@ -4,10 +4,12 @@
 int main ()
 {
     int i , n;
-    float s=0;
+    float s = 0;
+
     printf("veuillez entrer un nombre n: ");
     scanf("%d", &n);
-    for (i=1; i<=n; i++)
+
+    for (i = 1; i <= n; i++)
     {
         s=s + (float) (1/i);
     } 
