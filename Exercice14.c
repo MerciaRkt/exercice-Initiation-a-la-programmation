@@ -9,7 +9,7 @@ int main ()
     scanf("%d", &n);
     for (i=1; i<=n; i++)
     {
-        s+=(1.0/i);
+        s=s + (float) (1/i);
     } 
     printf("la somme de 1+1/2+...+1/n est %f", s);
     return (0);
