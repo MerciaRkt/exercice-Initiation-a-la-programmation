@@ -11,6 +11,6 @@ int main ()
     {
         s+=(1.0/i);
     } 
-    printf("la somme de 1+1/2+...+1/n est %g", s);
+    printf("la somme de 1+1/2+...+1/n est %f", s);
     return (0);
 }
